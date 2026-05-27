@@ -1,0 +1,45 @@
+/* variables y contenedores generales */
+:root {
+  --background-color: #12131A;
+  --card-color: #1C1F2A;
+  --primary-text: #F2F2F7;
+  --secondary-text: #B4B7C9;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+article{
+    margin-top: 40px;
+    height: 800px;
+    width: 650px;
+    background-color: red;
+    text-align: center;
+}
+
+/* header */
+
+header{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+header button {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+header img{
+    width: 40px;
+}
