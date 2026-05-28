@@ -157,7 +157,8 @@ textarea{
 }
 
 #cards-area div:nth-child(1){
-    background-color: rgb(227, 0, 227);
+    background-image: url(./assets/images/purple_card.png);
+    /* background-color: rgb(227, 0, 227); */
     background-size: cover;
     border-radius: 10px;
     height: 120px;
@@ -168,7 +169,8 @@ textarea{
 }
 
 #cards-area div:nth-child(2){
-    background-color: peru;
+    background-image: url(./assets/images/orange_card.png);
+    /* background-color: peru; */
     background-size: cover;
     border-radius: 10px;
     height: 120px;
@@ -179,7 +181,8 @@ textarea{
 }
 
 #cards-area div:nth-child(3){
-    background-color: salmon;
+    background-image: url(./assets/images/red_card.png);
+    /* background-color: salmon; */
     background-size: cover;
     border-radius: 10px;
     height: 120px;
