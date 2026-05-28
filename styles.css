@@ -77,16 +77,55 @@ textarea{
 }
 
 #checkbox-area{
+    font-size: 14px;
     display: flex;
     gap: 5px;
     margin-left: 20px;
     color: var(--secondary-text);
+    background-color: #12131A;
+    margin-top: 10px;
 }
 
 #checkbox-area input:nth-child(2){
     margin-left: 10px;
 }
 
+.checkbox {
+  appearance: none;
+
+
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid #6b7280;
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.checkbox:checked {
+  border-color: #d1d5db;
+}
+
+.checkbox::after {
+  content: '';
+  position: absolute;
+  display: none;
+  left: 5px;
+  top: 1px;
+  width: 4px;
+  height: 8px;
+  border: 1.5px solid #e5e7eb;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg);
+}
+
+.checkbox:checked::after {
+  display: block;
+}
 
 #checkbox-area p{
     margin-left: auto;
