@@ -245,5 +245,24 @@ progress::-webkit-progress-value{
 
 
 
+/* see more button */
+
+#see-more-button{
+    font-size: 16px;
+    background: none;
+    border: none;
+    color: var(--secondary-text);
+    display: flex;
+    justify-content: start;
+    margin-left: 1px;
+    margin-top: 10px;
+    
+}
+
+#see-more-button:hover{
+    
+
+}
+
 
 
